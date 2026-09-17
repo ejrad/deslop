@@ -34,7 +34,6 @@ body {
   justify-content: center;
   font-size: 18px;
   flex-shrink: 0;
-  box-shadow: 0 0 14px rgba(109, 40, 217, 0.45);
 }
 
 .header-text {
