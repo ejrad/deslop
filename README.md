@@ -5,7 +5,7 @@ Hide low effort AI slop posts on LinkedIn. Other sites planned, but this is main
 
 Runs entirely locally in your browser, no API keys needed or HTTP requests.
 
-
+<img width="224" height="230" alt="image" src="https://github.com/user-attachments/assets/063d7f12-f485-47dc-9ca7-e52d4f8193dd" />
 
 ## How it works
 
