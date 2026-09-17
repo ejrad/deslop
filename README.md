@@ -1,8 +1,8 @@
 # Deslop
 
-A browser extension that hides AI-generated posts on LinkedIn. 
+Hide low effort AI slop posts on LinkedIn. Other sites planned, but this is mainly for LinkedIn.
 
-It runs entirely locally in your browser. No APIs, no network requests, and no data leaves your machine. 
+Runs entirely locally in your browser, no API keys needed or HTTP requests.
 
 ## How it works
 
@@ -23,6 +23,8 @@ It uses a structural DOM traversal to identify post containers, making it resili
 2. Open Chrome and navigate to `chrome://extensions`.
 3. Enable "Developer mode" in the top right corner.
 4. Click "Load unpacked" and select the directory containing these files.
+
+# I may add this to the chrome web store later.
 
 ## Usage
 
