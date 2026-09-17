@@ -24,7 +24,7 @@ It uses a structural DOM traversal to identify post containers, making it resili
 3. Enable "Developer mode" in the top right corner.
 4. Click "Load unpacked" and select the directory containing these files.
 
-# I may add this to the chrome web store later.
+### I may add this to the chrome web store later.
 
 ## Usage
 
