@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deslop</title>
+
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup">
+
+    <div class="header">
+      <div class="logo-wrap">
+        <span class="logo-icon">🧹</span>
+      </div>
+      <div class="header-text">
+        <h1>Deslop</h1>
+        <p>LinkedIn AI Slop Filter</p>
+      </div>
+      <button class="pause-toggle" id="pause-toggle" title="Pause filtering">
+        <svg id="pause-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+          <rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/>
+        </svg>
+        <svg id="play-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="display:none">
+          <polygon points="5,3 19,12 5,21"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="stats-row">
+      <div class="stat-card">
+        <span class="stat-value" id="hidden-count">0</span>
+        <span class="stat-label">Hidden</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-card">
+        <span class="stat-value" id="total-count">0</span>
+        <span class="stat-label">Scanned</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-card">
+        <span class="stat-value" id="pct-count">0%</span>
+        <span class="stat-label">Filtered</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-header">
+        <span class="section-label">Sensitivity</span>
+        <span class="threshold-badge" id="threshold-badge">Balanced</span>
+      </div>
+      <input type="range" class="slider" id="threshold" min="15" max="80" value="40" step="5">
+      <div class="range-labels">
+        <span>Aggressive</span>
+        <span>Conservative</span>
+      </div>
+    </div>
+
+    <div class="status-bar" id="status-bar">
+      <span class="status-dot active" id="status-dot"></span>
+      <span id="status-text">Filtering active</span>
+    </div>
+
+    <button class="reset-btn" id="reset-btn">Reset Stats</button>
+
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
