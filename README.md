@@ -1,8 +1,11 @@
 # Deslop
+<img width="419" height="131" alt="image" src="https://github.com/user-attachments/assets/3cd6386f-a326-480e-904c-32365f33ace6" />
 
 Hide low effort AI slop posts on LinkedIn. Other sites planned, but this is mainly for LinkedIn.
 
 Runs entirely locally in your browser, no API keys needed or HTTP requests.
+
+
 
 ## How it works
 
